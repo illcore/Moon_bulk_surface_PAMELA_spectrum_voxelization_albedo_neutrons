@@ -1,0 +1,7 @@
+/run/numberOfThreads 4
+/run/initialize
+/control/cout/ignoreThreadsExcept 0
+/tracking/verbose 0
+/control/execute vis.mac
+/run/beamOn 1
+
