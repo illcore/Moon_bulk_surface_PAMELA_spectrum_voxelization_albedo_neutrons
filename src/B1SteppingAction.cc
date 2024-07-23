@@ -98,10 +98,10 @@ CheckFile1.close();
 if (Volume->GetName() == "Bulk"){
 if (ParticleName == "neutron"){
 if (ProcessName == "Transportation"){
-std::ofstream CheckFile1;
-CheckFile1.open("Moon_surface_neutron_voxel_without_H_1_93.dat", std::ios::app);
-CheckFile1 << TrackID << " " << PosX << " " << PosY << " " << PosZ << " " << KineticEnergy << " " << ParticleName << " " << Volume->GetName() << " " << CopyNumber << " " << ProcessName <<  " " << G4endl;
-CheckFile1.close();
+std::ofstream CheckFile2;
+CheckFile2.open("Moon_surface_neutron_voxel_without_H_1_93.dat", std::ios::app);
+CheckFile2 << TrackID << " " << PosX << " " << PosY << " " << PosZ << " " << KineticEnergy << " " << ParticleName << " " << Volume->GetName() << " " << CopyNumber << " " << ProcessName <<  " " << G4endl;
+CheckFile2.close();
 }
 }
 }
