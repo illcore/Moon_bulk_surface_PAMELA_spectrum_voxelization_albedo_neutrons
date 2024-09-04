@@ -4,4 +4,4 @@ Reference: https://doi.org/10.48550/arXiv.2407.17419
 * 3x2x3 m^3 Moon surface.
 * Bulk density=1.93 g/cm^3.
 * Voxelization via 100 cells of 2-cm thickness.
-* Secondary neutron tracking atop the Lunar surface as well as within the voxelization cells.
+* Secondary neutron tracking atop the lunar surface as well as within the voxelization cells.
