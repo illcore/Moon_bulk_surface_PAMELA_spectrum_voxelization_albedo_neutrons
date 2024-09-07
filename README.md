@@ -4,4 +4,6 @@ Reference: https://doi.org/10.48550/arXiv.2407.17419
 * 3x2x3 m^3 Moon surface.
 * Bulk density=1.93 g/cm^3.
 * Voxelization via 100 cells of 2-cm thickness.
-* Secondary neutron tracking atop the lunar surface as well as within the voxelization cells.
+* Secondary neutron tracking atop the lunar surface as well as within the voxelization cells;
+* One is suppsoed to use the executable+run1.mac without any change to employ the GEANT4 package appropriately;
+* If/when necessary, one is supposed to remove/close the visualization macro (vis.mac) in run1.mac to prevent any possible computer crash.
